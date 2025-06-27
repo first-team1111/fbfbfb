@@ -3,10 +3,10 @@
 
 ## [프로그램 실행 방법]
 
-## 실행 명령어:thumbsup:
+## 실행 명령어 :thumbsup:
 python fb3.py
 
-## 실행 결과:thumbsup:
+## 실행 결과 :thumbsup:
 Simulation count: 100000
 
 Random play wins:  0.0% of simulations
@@ -28,7 +28,7 @@ Optimal play wins: 31.3% of simulations
 10. 팀원들은 git clone 한 로컬 환경에서 작업 후 포크 레포에 git add - commit - push 
 11. 팀장은 팀 레포 pull requests 에 올라온  팀원들의 소스파일들을 검토하고 문제 없으면 Conversion 탭에서 Merge 함
 
-## 궁금한 점 & 작업 메모:rocket:
+## 궁금한 점 & 작업 메모 :rocket:
 1. 팀 레포지토리에서 issue 올라온 글  pull request - Conversation 탭 에서 resolve #1 -> 이렇게 issue 번호로  comment 하면 conversation 에서 머지 했을 때 해당 issue #1 번이 자동 close	 됨
 2. Mileston 만들면 해당 pull requests 올라 온 거에 할당해야 함 
 	-> 	 pull requests 오른쪽 중간에 milestone 설정
