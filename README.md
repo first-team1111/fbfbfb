@@ -1,21 +1,21 @@
 # 100 Prisoners Problem
-## collaborate practice
+## collaborate practice 🙌
 
 ## [프로그램 실행 방법]
 
-## 실행 명령어
+## 실행 명령어:thumbsup:
 python fb3.py
 
-## 실행 결과
+## 실행 결과:thumbsup:
 Simulation count: 100000
 
 Random play wins:  0.0% of simulations
 Optimal play wins: 31.3% of simulations
 
 
-# 깃 협업 메모
+# 깃 협업 메모❤
 
-## 시작 방법 
+## 시작 방법 :bulb:
 1. 팀장은 처음 깃 홈페이지 상단에서 - New organization - Free 로 만듦
 2. 팀원들 메일 input box 에 넣고 클릭
 3. Git clone 팀레포 주소
@@ -28,7 +28,7 @@ Optimal play wins: 31.3% of simulations
 10. 팀원들은 git clone 한 로컬 환경에서 작업 후 포크 레포에 git add - commit - push 
 11. 팀장은 팀 레포 pull requests 에 올라온  팀원들의 소스파일들을 검토하고 문제 없으면 Conversion 탭에서 Merge 함
 
-## 궁금한 점 & 작업 메모
+## 궁금한 점 & 작업 메모:rocket:
 1. 팀 레포지토리에서 issue 올라온 글  pull request - Conversation 탭 에서 resolve #1 -> 이렇게 issue 번호로  comment 하면 conversation 에서 머지 했을 때 해당 issue #1 번이 자동 close	 됨
 2. Mileston 만들면 해당 pull requests 올라 온 거에 할당해야 함 
 	-> 	 pull requests 오른쪽 중간에 milestone 설정
@@ -42,6 +42,6 @@ Optimal play wins: 31.3% of simulations
 	git fetch upstream main
 	git merge FETCH_HEAD
 
-## Reference
+## Reference :bulb:
 ## gitignore 사이트 주소
 https://www.toptal.com/developers/gitignore/
