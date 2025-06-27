@@ -1,3 +1,6 @@
+from fb1 import play_random
+from fb2 import play_optimal
+
 if __name__ == '__main__':
     n = 100_000
     print(" Simulation count:", n)
