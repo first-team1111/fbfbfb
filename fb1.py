@@ -1,19 +1,22 @@
-F play_random(n)
-   V pardoned = 0
-   V in_drawer = Array(0.<100)
-   V sampler = Array(0.<100)
-   L 0 .< n
-      random:shuffle(&in_drawer)
-      V found = 0B
-      L(prisoner) 100
-         found = 0B
-         L(reveal) random:sample(sampler, 50)
-            V card = in_drawer[reveal]
-            I card == prisoner
-               found = 1B
-               L.break
-         I !found
-            L.break
-      I found
-         pardoned++
-   R Float(pardoned) / n * 100
+import random
+
+def play_random(n):
+    # using 0-99 instead of ranges 1-100
+    pardoned = 0
+    in_drawer = list(range(100))
+    sampler = list(range(100))
+    for _round in range(n):
+        random.shuffle(in_drawer)
+        found = False
+        for prisoner in range(100):
+            found = False
+            for reveal in random.sample(sampler, 50):
+                card = in_drawer[reveal]
+                if card == prisoner:
+                    found = True
+                    break
+            if not found:
+                break
+        if found:
+            pardoned += 1
+    return pardoned / n * 100   # %
