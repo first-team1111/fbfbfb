@@ -16,7 +16,7 @@ Optimal play wins: 31.3% of simulations
 # 깃 협업 메모
 
 ## 시작 방법 
-1. 처음 깃 홈페이지 상단에서 - New organization - Free 로 만듦
+1. 팀장은 처음 깃 홈페이지 상단에서 - New organization - Free 로 만듦
 2. 팀원들 메일 input box 에 넣고 클릭
 3. Git clone 팀레포 주소
 4. 해당 클론에서 .gitignore 생성 파일 touch 로 만들고 값 입력
