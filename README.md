@@ -36,7 +36,7 @@ Optimal play wins: 31.3% of simulations
 4. conflict 테스트를 해봤으면 함
 -> 팀원들이 같은 소스파일을 수정할 때 발생할 것으로 보임
 
-## 팀원 각자의 포크 레포에 팀 레포 파일들을 가져와서 동기화하는 방법
+## 팀원 각자의 포크 레포에 팀 레포 파일들을 가져와서 동기화하는 방법  :computer:
 	git remote add upstream https://github.com/first-team1111/fbfbfb.git
 	git remote -v
 	git fetch upstream main
