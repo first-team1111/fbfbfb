@@ -40,4 +40,6 @@ Optimal play wins: 31.3% of simulations
 	git fetch upstream main
 	git merge FETCH_HEAD
 
-
+## Reference
+## gitignore 사이트 주소
+https://www.toptal.com/developers/gitignore/
