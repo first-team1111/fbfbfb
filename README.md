@@ -25,7 +25,7 @@ Optimal play wins: 31.3% of simulations
 7. Git commit 
 8. Git push origin main
 9. 이제 팀원들은 각자 팀레포를 포크해서 포크 레포를 로컬환경에 git clone 
-10 팀원들은 git clone 한 로컬 환경에서 작업 후 포크 레포에 git add - commit - push 
+10. 팀원들은 git clone 한 로컬 환경에서 작업 후 포크 레포에 git add - commit - push 
 11. 팀장은 팀 레포 pull requests 에 올라온  팀원들의 소스파일들을 검토하고 문제 없으면 Conversion 탭에서 Merge 함
 
 ## 궁금한 점 & 작업 메모
